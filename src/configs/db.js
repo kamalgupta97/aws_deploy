@@ -2,6 +2,6 @@ const mongoose = require("mongoose");
 
 module.exports = () => {
   return mongoose.connect(
-    "mongodb+srv://kamal:kamal@cluster0.kvzdq.mongodb.net/test"
+    "mongodb+srv://aws.000uh.mongodb.net/myFirstDatabase?authSource=%24external&authMechanism=MONGODB-X509"
   );
 };
