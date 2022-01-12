@@ -1,5 +1,7 @@
 const mongoose = require("mongoose");
 
 module.exports = () => {
-  return mongoose.connect("mongodb://127.0.0.1:27017/web13-ejs");
+  return mongoose.connect(
+    "mongodb+srv://kamal:kamal@cluster0.kvzdq.mongodb.net/test"
+  );
 };
